@@ -71,8 +71,9 @@ public class UserManage
 		  return new User();
 	 }
 	   /* public static void main(String args[]) throws Exception{
-	    	UserManage zan = new UserManage();
-	       zan.Zhuce("zmc", "123","zmcheng","187");
+	    	UserManage  zan = new UserManage();
+	    	   User  temp_user= zan.getInformation("zx");
+	    	   System.out.println("sss"+temp_user.getId());
 	    }*/
 }
      
